@@ -1,0 +1,39 @@
+# ============================================================
+# NACC Data Use Agreement: NO data may be committed to this repo.
+# ============================================================
+# Tabular data (NACC/UDS-derived)
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.parquet
+
+# Imaging / arrays / scans
+*.png
+*.jpg
+*.jpeg
+*.nii
+*.nii.gz
+*.npy
+*.npz
+Imaging Data/
+data/
+
+# Trained models & intermediate outputs (derived from restricted data)
+*.pkl
+*.pt
+*.h5
+*.joblib
+loss_curves_data.pkl
+alzheimers_model_*.pkl
+
+# Notebook outputs (can embed data rows)
+*.ipynb
+
+# Environment / caches
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
